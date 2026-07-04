@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { ArrowDown, ArrowUpRight, Download } from "lucide-react";
 import portrait from "@/assets/hero.png";
-import resumePdf from "@/assets/My_Resume.pdf";
+import resumePdf from "@/assets/Ishrak_Ahmad_Resume.pdf";
 import { Magnetic } from "./Magnetic";
 
 const ROLES = ["Developer", "ENGINEER", "PROGRAMMER","CSE Student"];
@@ -144,7 +144,7 @@ export function Hero() {
             <Magnetic>
               <a
                 href={resumePdf}
-                download="Tahmid_Sadat_Resume.pdf"
+                download="Ishrak_Ahmad_Resume.pdf"
                 className="inline-flex items-center gap-2 rounded-full border border-foreground/30 px-6 py-3 text-sm font-medium bg-background/50 backdrop-blur-sm transition hover:border-[color:var(--color-accent)] hover:text-[color:var(--color-accent)]"
               >
                 Download Resume <Download size={16} />
