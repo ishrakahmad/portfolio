@@ -1,8 +1,33 @@
 import { Reveal } from "./Reveal";
 
 const ITEMS = [
-  { period: "2024 — Present", title: "Web Developer", org: "AlgoTech IT", body: "Building production web apps, API integrations, and shipping client work." },
-  { period: "2022 — 2026", title: "B.Sc. in Computer Science", org: "American International University–Bangladesh", body: "CSE major. Focus on full-stack engineering, mobile, and applied ML." },
+  {
+    period: "2022 — Present",
+    title: "B.Sc. in Computer Science & Engineering",
+    org: "American International University-Bangladesh (AIUB)",
+    body: "Started my Computer Science journey building a strong foundation in programming software engineering and problem solving.",
+  },
+
+  {
+    period: "2022",
+    title: "Projects & Certifications",
+    org: "Portfolio Development",
+    body: "Developed multiple real-world projects, earned the Cisco IT Essentials certification and received the AIUB Science Poster Contest Certificate of Appreciation.",
+  },
+  
+  {
+    period: "2026",
+    title: "Full-Stack Development",
+    org: "React • Next.js • NestJS • PostgreSQL",
+    body: "Built full-stack applications using React, Next.js, NestJS, REST APIs and PostgreSQL while improving backend development skills.",
+  },
+ 
+  {
+    period: "2026 — Present",
+    title: "Open to Software Engineering Internship",
+    org: "Aspiring Software Engineer",
+    body: "Actively seeking internship opportunities to apply my skills in React, Next.js, NestJS, PostgreSQL and modern web development while continuously learning Machine Learning and Data Science.",
+  },
 ];
 
 export function Timeline() {
