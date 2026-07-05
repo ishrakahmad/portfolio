@@ -107,7 +107,7 @@ https://ishrakahmad.me
 https://github.com/ishrakahmad
 
 💼 LinkedIn
-https://linkedin.com/https://www.linkedin.com/in/ishrakahmad/
+https://www.linkedin.com/in/ishrakahmad/
 
 📧 Email
 ishrakahmad782@gmail.com
