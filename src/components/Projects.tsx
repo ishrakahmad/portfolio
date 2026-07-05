@@ -9,13 +9,13 @@ type Project = {
 };
 
 const PROJECTS: Project[] = [
-  { n: "01", name: "SkyCast", desc: "A responsive weather application that provides real time weather updates, 5 day forecasts and dynamic weather information using the OpenWeather API.", tech: ["HTML", "CSS", "JavaScript", "OpenWeather API"], demo: "https://ishrakahmad.github.io/SkyCast/", tone: "from-amber-200/40 to-stone-300/30" },
+  { n: "01", name: "SkyCast", desc: "A responsive weather application that provides real time weather updates, 5 day forecasts and dynamic weather information using the OpenWeather API.", tech: ["HTML", "CSS", "JavaScript", "OpenWeather API"], demo: "https://skycast.ishrakahmad.me/", tone: "from-amber-200/40 to-stone-300/30" },
   {
     n: "02",
     name: "To-Do App",
     desc: "A responsive task management application with local storage support, task organization and a clean user friendly interface.",
     tech: ["HTML", "CSS", "JavaScript"],
-    demo: "https://ishrakahmad.github.io/ToDo-App/",
+    demo: "https://todo.ishrakahmad.me",
     repo: "https://github.com/ishrakahmad/ToDo-App",
     tone: "from-stone-200/40 to-amber-200/30",
   },
