@@ -9,34 +9,44 @@ type Project = {
 };
 
 const PROJECTS: Project[] = [
-  { n: "01", name: "SkyCast", desc: "A responsive weather application that provides real time weather updates, 5 day forecasts and dynamic weather information using the OpenWeather API.", tech: ["HTML", "CSS", "JavaScript", "OpenWeather API"], demo: "https://skycast.ishrakahmad.me/", tone: "from-amber-200/40 to-stone-300/30" },
+  {
+    n: "01",
+    name: "University Canteen Management System",
+    desc: "A full-stack university canteen ordering platform featuring secure JWT authentication, role-based access, menu management, order processing and real-time order tracking.",
+    tech: ["Next.js", "NestJS", "PostgreSQL", "TypeScript", "TypeORM", "JWT", "Tailwind CSS"],
+    demo: "https://ucms.ishrakahmad.me",
+    repo: "https://github.com/ishrakahmad/University-Canteen-Management-System",
+    tone: "from-amber-200/40 to-stone-300/30",
+  },
   {
     n: "02",
-    name: "To-Do App",
-    desc: "A responsive task management application with local storage support, task organization and a clean user friendly interface.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    demo: "https://todo.ishrakahmad.me",
-    repo: "https://github.com/ishrakahmad/ToDo-App",
+  
+    name: "ShopSphere",
+    desc: "A modern full-stack e-commerce platform with secure authentication, product management, shopping cart, checkout, reviews and an admin dashboard.",
+    tech: ["NestJS", "PostgreSQL", "Prisma", "TypeScript", "JWT", "Cloudinary"],
+    demo: "https://shopsphere.ishrakahmad.me",
+    repo: "https://github.com/ishrakahmad/shopsphere",
     tone: "from-stone-200/40 to-amber-200/30",
   },
   {
     n: "03",
-    name: "Pharmacy Management System",
-    desc: "A desktop pharmacy management system featuring medicine inventory, sales management, customer records and CRUD operations with database integration.",
-    tech: ["C#", "Windows Forms", "MySQL"],
-    repo: "https://github.com/ishrakahmad/pharmacymanagementsystem",
-    tone: "from-stone-200/40 to-amber-200/30",
+    name: "Moviqo AI",
+    desc: "An AI-powered movie recommendation system that uses content based filtering, NLP and cosine similarity to deliver personalized movie recommendations.",
+    tech: ["Python", "Scikit-learn", "Pandas", "NumPy", "Streamlit", "TMDB API"],
+    demo: "https://moviqo.streamlit.app/",
+    repo: "https://github.com/ishrakahmad/Moviqo-AI",
+    tone: "from-amber-200/40 to-stone-300/30",
   },
 
   {
     n: "04",
-    name: "Online Lost & Found Portal",
-    desc: "A web-based platform for reporting, searching and managing lost and found items with authentication, CRUD functionality and category filtering.",
-    tech: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
-    repo: "https://github.com/ishrakahmad/Online-Lost-Found-Portal",
+    name: "SkyCast",
+    desc: "A responsive weather application providing real-time weather updates, 5-day forecasts and dynamic weather information using the OpenWeather API.",
+    tech: ["HTML", "CSS", "JavaScript", "OpenWeather API"],
+    demo: "https://skycast.ishrakahmad.me",
+    repo: "https://github.com/ishrakahmad/SkyCast",
     tone: "from-amber-200/40 to-stone-300/30",
-  },
-
+  }
 
    
 ];
