@@ -176,7 +176,7 @@ export function Hero() {
             >
               <motion.img
                 src={portrait}
-                alt="Tahmid Sadat portrait"
+                alt="Ishrak Ahmad portrait"
                 initial={{ opacity: 0, x: 60 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }}

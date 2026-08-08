@@ -14,7 +14,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const SKILLS = ["React", "NestJS", "TypeScript", "JavaScript", "PostgreSQL", "Tailwind CSS", "REST APIs","Git & GitHub","Machine Learing","Data Science"];
+const SKILLS = ["React", "NestJS", "TypeScript", "JavaScript", "PostgreSQL", "Tailwind CSS", "REST APIs","Git & GitHub","Machine Learning","Data Science"];
 
 function Index() {
   return (
