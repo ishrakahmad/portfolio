@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { ArrowDown, ArrowUpRight, Download } from "lucide-react";
-import portrait from "@/assets/hero.png";
+import portrait from "@/assets/Ishrakk.png";
 import resumePdf from "@/assets/Ishrak_Ahmad_Resume.pdf";
 import { Magnetic } from "./Magnetic";
 
